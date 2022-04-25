@@ -201,7 +201,23 @@ img {
   background-color: var(--header-bg-color);
   color: var(--text-white);
 }
+.social-icons a {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 21px;
+  color: var(--common-text-color);
+  text-decoration: none;
+}
+.social-icons a .eng {
+  font-size: 13px;
+}
 
+footer p {
+  cursor: pointer;
+}
+footer p:hover{
+  text-decoration: underline;
+}
 @media (max-width: 778px) {
   .title {
     font-size: 37px;
