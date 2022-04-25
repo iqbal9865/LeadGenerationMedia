@@ -188,6 +188,19 @@ img {
     padding: 10px 30px;
     color: var(--logomaker-bg);
 }
+.project-section-wrapper {
+  background-color: var(--light-gray);
+}
+.project-section img {
+  height: 240px;
+}
+.link {
+  color: var(--logomaker-bg);
+}
+.grow-business {
+  background-color: var(--header-bg-color);
+  color: var(--text-white);
+}
 
 @media (max-width: 778px) {
   .title {
