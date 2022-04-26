@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Tapestry&display=swap");
+
 :root {
+  --header-bg-color: #0d084d;
+  --text-white: white;
+  --green-color: #157347;
+  --light-gray: #f1fdf7;
   --common-text-color: #404145;
+  --business-bg: #0d084d;
+  --logomaker-bg: #446ee7;
 }
 
 * {
@@ -31,6 +39,59 @@ form {
 .text-success:hover {
   text-decoration: underline;
 }
+
+.container-fluid {
+  padding: 0 60px !important;
+}
+.navbar,
+main {
+  padding: 10px 0 !important;
+  background-color: var(--header-bg-color);
+}
+#logo {
+  font-size: 30px;
+}
+nav li {
+  padding: 0 16px;
+  border: 1px solid transparent;
+}
+nav li:hover {
+  border: 1px solid var(--text-white);
+  transition: 1s;
+  border-radius: 5px;
+}
+nav a,
+nav .btn,
+nav a:hover {
+  color: var(--text-white);
+  text-decoration: none;
+}
+nav .btn {
+  border: 1px solid var(--text-white);
+}
+nav .btn:hover {
+  color: var(--text-white);
+  background-color: var(--green-color);
+  border: 1px solid var(--green-color);
+}
+
+footer p {
+  cursor: pointer;
+}
+footer p:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 21px;
+  color: var(--common-text-color);
+  text-decoration: none;
+}
+.social-icons a .eng {
+  font-size: 13px;
+}
+
 @media (max-width: 868px) {
   form {
     width: 90%;
