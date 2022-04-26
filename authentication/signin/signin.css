@@ -1,0 +1,40 @@
+:root {
+  --common-text-color: #404145;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--common-text-color) !important;
+}
+
+.signin-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 45%;
+  border: 1px solid lightgray;
+  padding: 30px;
+}
+.input {
+  margin: 20px 0;
+}
+.text-success {
+  text-decoration: none;
+}
+.text-success:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 868px) {
+  form {
+    width: 90%;
+  }
+}

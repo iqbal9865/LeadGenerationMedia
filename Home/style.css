@@ -42,6 +42,7 @@ nav a,
 nav .btn,
 nav a:hover {
   color: var(--text-white);
+  text-decoration: none;
 }
 nav .btn {
   border: 1px solid var(--text-white);
