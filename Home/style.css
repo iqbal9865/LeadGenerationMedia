@@ -7,7 +7,7 @@
   --light-gray: #f1fdf7;
   --common-text-color: #404145;
   --business-bg: #0d084d;
-  --logomaker-bg: #446EE7;
+  --logomaker-bg: #446ee7;
 }
 
 * {
@@ -180,13 +180,13 @@ img {
   color: gray;
 }
 .logomaker-section-row {
-    background-color: var(--logomaker-bg);
-    color: var(--light-gray);
+  background-color: var(--logomaker-bg);
+  color: var(--light-gray);
 }
 #logomaker-btn {
-    background-color: var(--light-gray);
-    padding: 10px 30px;
-    color: var(--logomaker-bg);
+  background-color: var(--light-gray);
+  padding: 10px 30px;
+  color: var(--logomaker-bg);
 }
 .project-section-wrapper {
   background-color: var(--light-gray);
@@ -215,7 +215,7 @@ img {
 footer p {
   cursor: pointer;
 }
-footer p:hover{
+footer p:hover {
   text-decoration: underline;
 }
 @media (max-width: 778px) {
