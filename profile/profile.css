@@ -228,8 +228,8 @@ footer p {
 footer p:hover {
   text-decoration: underline;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .switch-buying-wrapper {
-    margin-left: 0;
+    margin-left: 10px;
   }
 }
