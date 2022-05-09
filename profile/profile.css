@@ -94,7 +94,6 @@ nav .btn:hover {
     border-radius: 2rem;
     font-size: 14px
 }
-
 @media (max-width: 768px) {
     .switch-buying-wrapper{
         margin-left: 0;
