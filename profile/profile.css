@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Tapestry&display=swap");
+
+:root {
+  --header-bg-color: #0d084d;
+  --text-white: white;
+  --green-color: #157347;
+  --light-gray: #f1fdf7;
+  --common-text-color: #404145;
+  --business-bg: #0d084d;
+  --logomaker-bg: #446ee7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--common-text-color) !important;
+}
+.container-fluid {
+  padding: 0 30px !important;
+}
+nav {
+    border-bottom: 1px solid lightgrey;
+}
+.navbar,
+main {
+  padding: 10px 0 !important;
+  background-color: var(--header-bg-color);
+}
+#logo {
+  font-size: 30px;
+}
+nav li {
+  padding: 0 10px;
+  border: 1px solid transparent;
+}
+nav li:hover {
+  border: 1px solid var(--text-white);
+  transition: 1s;
+  border-radius: 5px;
+}
+
+nav .btn {
+  border: 1px solid var(--text-white);
+}
+nav .btn:hover {
+  color: var(--text-white);
+  background-color: var(--green-color);
+  border: 1px solid var(--green-color);
+}
+.switch-buying-wrapper{
+    margin-left: 9rem;
+}
+.switch-buying {
+    cursor: pointer;
+    color: #3FCA89;
+}
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.username{
+    color: rgb(27, 23, 23);
+}
+#pro-pre-btn{
+    background-color: var(--text-white);
+    border: 1px solid var(--common-text-color);
+}
+#pro-pre-btn:hover{
+    background-color: var(--common-text-color);
+    color: var(--text-white);
+}
+.about-wrapper  p,
+.member-wrapper p{
+    font-size: 14px;
+}
+.font-icons{
+    font-size: 20px!important;
+}
+.nav-pro-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.online-btn {
+    border: 1px solid #3FCA89;
+    color: #3FCA89;
+    padding: 0 10px;
+    margin: 20px;
+    background-color: var(--text-white);
+    border-radius: 2rem;
+    font-size: 14px
+}
+
+@media (max-width: 768px) {
+    .switch-buying-wrapper{
+        margin-left: 0;
+    }
+}
