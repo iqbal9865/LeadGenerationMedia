@@ -22,7 +22,7 @@ body {
   padding: 0 30px !important;
 }
 nav {
-    border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 .navbar,
 main {
@@ -50,52 +50,186 @@ nav .btn:hover {
   background-color: var(--green-color);
   border: 1px solid var(--green-color);
 }
-.switch-buying-wrapper{
-    margin-left: 9rem;
+.switch-buying-wrapper {
+  margin-left: 9rem;
 }
-.switch-buying {
-    cursor: pointer;
-    color: #3FCA89;
+.switch-buying,
+.gig-text {
+  cursor: pointer;
+  color: #21c277;
 }
 .profile-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
-.username{
-    color: rgb(27, 23, 23);
+.username {
+  color: rgb(27, 23, 23);
 }
-#pro-pre-btn{
-    background-color: var(--text-white);
-    border: 1px solid var(--common-text-color);
+#pro-pre-btn {
+  background-color: var(--text-white);
+  border: 1px solid var(--common-text-color);
 }
-#pro-pre-btn:hover{
-    background-color: var(--common-text-color);
-    color: var(--text-white);
+#pro-pre-btn:hover {
+  background-color: var(--common-text-color);
+  color: var(--text-white);
 }
-.about-wrapper  p,
-.member-wrapper p{
-    font-size: 14px;
+.about-wrapper p,
+.member-wrapper p {
+  font-size: 14px;
 }
-.font-icons{
-    font-size: 20px!important;
+.font-icons {
+  font-size: 20px !important;
 }
-.nav-pro-img{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
+.font-icons-img {
+  font-size: 70px !important;
+  color: #78cdd2;
+  padding: 25px 0px;
+  cursor: pointer;
+}
+.nav-pro-img {
+  width: 40px;
+  height: 40px!important;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .online-btn {
-    border: 1px solid #3FCA89;
-    color: #3FCA89;
-    padding: 0 10px;
-    margin: 20px;
-    background-color: var(--text-white);
-    border-radius: 2rem;
-    font-size: 14px
+  border: 1px solid #21c277;
+  color: #21c277;
+  padding: 0 10px;
+  margin: 20px;
+  background-color: var(--text-white);
+  border-radius: 2rem;
+  font-size: 14px;
+}
+.list-items {
+  border: 1px solid lightgray;
+  padding: 6px;
+}
+.list-items li {
+  list-style: none;
+  cursor: pointer;
+  padding: 0 10px;
+  margin-top: 15px;
+}
+.list-items li:active {
+  color: #21c277;
+}
+.gig-text {
+  font-size: 14px;
+}
+.card {
+  cursor: pointer;
+}
+.card a {
+  color: var(--common-text-color);
+  text-decoration: none;
+}
+.card a:hover {
+  color: #21c277;
+  text-decoration: underline;
+}
+.budget {
+  font-size: 20px;
+  font-weight: 700;
+}
+.learn-text {
+  text-align: left;
+  line-height: 0;
+  word-spacing: 0;
+}
+.learn-text span {
+  font-size: 12px;
+  color: black;
+}
+.learn-text span h2 {
+  color: black;
+  font-weight: 700;
+}
+.gray-color {
+  color: gray;
+}
+.enroll-btn {
+  background-color: #21c277;
+  color: var(--text-white);
+  transition: 0.3s;
+}
+.enroll-btn:hover {
+  background-color: var(--green-color);
+}
+.common-btn {
+  padding: 6px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.description-wrapper,
+.language-wrapper {
+  font-size: 15px;
+}
+.description,
+.language,
+.link-account,
+.skills,
+.edu {
+  color: black;
+  font-weight: 700;
+}
+.edit-des,
+.add-lan,
+.add-skills,
+.add-edu {
+  color: var(--logomaker-bg);
+}
+.edit-des:hover,
+.add-lan:hover,
+.add-skills:hover,
+.add-edu:hover {
+  text-decoration: underline;
+}
+.des-text {
+  color: gray;
+  text-align: justify;
+  padding: 0 16px;
+}
+.eng-lan,
+.accounts-wrapper,
+.edu-wrapper {
+  text-align: left;
+}
+.color-blue {
+  color: var(--logomaker-bg);
+}
+.skills button {
+  background-color: var(--text-white);
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 5px 16px;
+  margin: 6px;
+}
+.pencil-icon:hover {
+  color: black;
+}
+.social-icons a {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 21px;
+  color: var(--common-text-color);
+  text-decoration: none;
+}
+.social-icons a .eng {
+  font-size: 13px;
+}
+footer{
+    border-top: 1px solid lightgray;
+}
+footer p {
+  cursor: pointer;
+}
+footer p:hover {
+  text-decoration: underline;
 }
 @media (max-width: 768px) {
-    .switch-buying-wrapper{
-        margin-left: 0;
-    }
+  .switch-buying-wrapper {
+    margin-left: 0;
+  }
 }
